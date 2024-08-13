@@ -1,0 +1,71 @@
+.foodyHeader
+{
+    width: 99.80%;
+    height: 14rem;
+    background: rgb(29, 28, 28);
+    margin: 0px 1px;
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foodySubHeader
+{
+    width: 100%;
+    height: 6rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h2
+{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px indigo;
+}
+span
+{
+    color: red;
+}
+    span:hover
+    {
+        color: green;
+    }
+.searchFI
+{
+    width: 24rem;
+    height: 50px;
+    outline: none;
+    padding: 0rem 1rem;
+    border-radius: 12px;
+}
+.foodyButtons
+{
+    width: 45%;
+    height: 4rem;
+    margin: 1rem 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.btns
+{
+    width: 125px;
+    height: 40px;
+    background-color:rgb(247, 53, 53);
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+    .btns:hover
+    {
+        color: yellow;
+        background-color:rgb(165, 4, 4);
+        transition-duration: 1s;
+    }

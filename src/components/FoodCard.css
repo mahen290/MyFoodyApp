@@ -1,0 +1,81 @@
+.foodCard
+{
+    width: 25rem;
+    height: 38rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+    border-radius: 18px;
+    background-color: rgb(228, 183, 129);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.id
+{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.name
+{
+    color: black;
+    text-shadow: 1px 1px 1px red;
+    font-size: 33px;
+    margin-bottom: 1rem;
+}
+.foodImg
+{
+    text-align: center;
+    margin-left: 94px;
+    border-radius: 100px;
+    margin-bottom: 0.5rem;
+}
+.desc
+{
+    width: 383px;
+    background-color: rgb(56, 153, 243);
+    margin-bottom: 0.75rem;
+    padding: 11px;
+    border-radius: 16px;
+    color: white;
+    text-align: justify;
+    opacity: 0.8;
+}
+.price
+{
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+    .price:hover
+    {
+        color: green;
+    }
+.category
+{
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 34px;
+}
+    .category:hover
+    {
+        color: green;
+    }
+.rating
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+    .rating:hover
+    {
+        color: green;
+    }
