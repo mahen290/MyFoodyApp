@@ -1,6 +1,5 @@
 import React from 'react';
 import './FoodZone.css';
-import FoodData from './FoodData';
 
 function FoodZone() {
   return (
@@ -17,7 +16,7 @@ function FoodZone() {
                 <button className = "btns"> Dinner </button>
             </div> 
         </div>
-        <FoodData />
+        
     </div>
   );
 }

@@ -204,7 +204,6 @@ function FoodData() {
       category: "Snacks",
       rating: 4.8,
     },
-
   ];
     console.log("Result", food_data);
 
@@ -212,7 +211,7 @@ function FoodData() {
     <div className = "food_data_container">
       {
         food_data.map( (item) =>
-          <FoodCard foodData = { item } />
+          <FoodCard foodData = {item} />
         )
       }
     </div>
