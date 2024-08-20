@@ -210,8 +210,8 @@ function FoodData() {
   return (
     <div className = "food_data_container">
       {
-        food_data.map( (item) =>
-          <FoodCard foodData = {item} />
+        food_data.map( (item, index) =>
+          <FoodCard key = { index } foodData = { item } />
         )
       }
     </div>
